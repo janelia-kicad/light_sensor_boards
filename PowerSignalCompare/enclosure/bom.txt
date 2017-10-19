@@ -1,0 +1,13 @@
+-*- mode:org -*-
+# Bill of Materials
+| ! | description                                                                                                  | vendor   | part number | quantity |  cost |
+|---+--------------------------------------------------------------------------------------------------------------+----------+-------------+----------+-------|
+|   | Optically Clear Cast Acrylic Sheet, 1/8" Thick, 12" x 12"                                                    | mcmaster | 8560K239    |        1 |  8.63 |
+|   | Optically Clear Cast Acrylic Sheet, 1/4" Thick, 12" x 12"                                                    | mcmaster | 8560K354    |        1 | 16.36 |
+|   | 18-8 Stainless Steel Socket Head Cap Screw, 4-40 Thread, 5/16" Length                                        | mcmaster | 92196A107   |        4 |  0.04 |
+|   | 300 Series Stainless Steel NAS 620 Flat Washer, Number 4 Size, .21" OD, .01"-.02" Thickness, Dash Number C4L | mcmaster | 90945A710   |        4 |  0.01 |
+|   | 18-8 Stainless Steel Male-Female Threaded Hex Standoff, 3/16" Hex, 1/2" Length, 4-40 Screw Size              | mcmaster | 91075A665   |        4 |  2.20 |
+|   | 18-8 Stainless Steel Male-Female Threaded Hex Standoff, 3/16" Hex, 1/4" Length, 4-40 Screw Size              | mcmaster | 91075A655   |        4 |  2.15 |
+|---+--------------------------------------------------------------------------------------------------------------+----------+-------------+----------+-------|
+| # |                                                                                                              |          |             |          | 42.59 |
+#+TBLFM: @8$6=(@I$quantity..@II$quantity)*(@I$cost..@II$cost);%.2f;N

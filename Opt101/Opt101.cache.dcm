@@ -1,0 +1,37 @@
+EESchema-DOCLIB  Version 2.0  Mon 26 Oct 2009 16:49:43 PDT
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP DIN_4
+D Connector DIN 4 Pin
+K CONN DIN
+$ENDCMP
+#
+$CMP OPT101
+D OPT101
+K OPT101
+$ENDCMP
+#
+$CMP POT
+D Potentionmetre
+K R
+$ENDCMP
+#
+$CMP PROBEPOINT
+D Probe Point
+K probepoint
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP UAF42
+D UAF42
+K UAF42
+$ENDCMP
+#
+#End Doc Library
