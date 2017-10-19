@@ -1,4 +1,4 @@
-# audio_controller_3x2
+# light_sensor_boards
 
 Authors:
 
@@ -7,4 +7,3 @@ Authors:
 License:
 
     BSD
-
