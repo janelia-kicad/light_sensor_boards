@@ -1,35 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:Opt101-rescue
+EESchema Schematic File Version 3
 LIBS:power
-LIBS:device
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:contrib
-LIBS:valves
 LIBS:light_sensor_boards
 LIBS:components
+LIBS:Opt101-rescue
 LIBS:Opt101-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
@@ -509,7 +484,7 @@ F 3 "" H 7650 6000 60  0001 C CNN
 $EndComp
 NoConn ~ 6400 3050
 $Comp
-L POT RV1
+L POT-RESCUE-Opt101 RV1
 U 1 1 49FF78C5
 P 7600 2800
 F 0 "RV1" H 7600 2700 50  0000 C CNN
