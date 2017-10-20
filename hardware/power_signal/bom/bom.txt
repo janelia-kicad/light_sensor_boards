@@ -1,0 +1,46 @@
+-*- mode:org -*-
+
+# power_signal.lst
+| ref | value        |
+|-----+--------------|
+| C1  | 10uF         |
+| C2  | 1uF          |
+| C3  | 10uF         |
+| C4  | 1uF          |
+| C5  | 0.1uF        |
+| C6  | 0.1uF        |
+| C7  | 0.1uF        |
+| DC1 | DCW08        |
+| P1  | DIN_4_SHIELD |
+| P2  | BNC          |
+| P3  | 9-18VDC      |
+| P4  | CONN_1       |
+| P5  | CONN_1       |
+| P6  | CONN_1       |
+| P7  | CONN_1       |
+| P8  | CONN_1       |
+| P9  | CONN_1       |
+| P10 | CONN_1       |
+| R1  | 634          |
+| U1  | BUF634       |
+
+# Bill of Materials
+| ! | part  | description                      | vendor       | part number    | quantity |  cost |
+|---+-------+----------------------------------+--------------+----------------+----------+-------|
+|   | PCB   | power_signal 2.1                  | protoexpress | afv1-60094     |        1 | 34.50 |
+|   | C1,3  | CAP CER 10UF 50V X7S 1210        | digikey      | 445-4536-1-ND  |        2 |  1.24 |
+|   | C2,4  | CAP CER 1.0UF 50V 10% X7R 1210   | digikey      | 490-1863-1-ND  |        2 |  0.48 |
+|   | C5-7  | CAP CERM .10UF 10% 50V X7R 1210  | digikey      | 478-3586-1-ND  |        3 |  0.73 |
+|   | DC1   | DC-DC 2 Output 15 Volt-15 Volt   | jameco       | 1953364        |        1 | 19.95 |
+|   | P1    | CONN MINI-DIN 4PIN R/A SLIM PCB  | digikey      | CP-2245-ND     |        1 |  1.82 |
+|   | P1    | S-VIDEO 6'CABLE,2X MALE PLUGS    | jameco       | 228591         |        1 |  2.15 |
+|   | P2    | CONN SOCKET BNC R/A 50 OHM PCB   | digikey      | A97555-ND      |        1 |  2.30 |
+|   | P3    | Male 2 Position 6mm 2 Terminal   | jameco       | 137673         |        1 |  0.45 |
+|   | P3    | AC/DC Power Supply 12V 1A 12W    | jameco       | 252824         |        1 | 12.95 |
+|   | P4-10 | STDOFF HEX FLA-RET 4-40 .375"L   | digikey      | 8440BK-ND      |        5 |  0.84 |
+|   | P4-10 | SCREW MACHINE PHIL 4-40X1/4 SS   | digikey      | H703-ND        |        5 |  0.05 |
+|   | R1    | RES 634 OHM 1/4W 1% 1210 SMD     | digikey      | RHM634BDCT-ND  |        1 |  0.36 |
+|   | U1    | IC OPAMP BUFFER 180MHZ SGL 8SOIC | digikey      | 296-24142-1-ND |        1 |  9.28 |
+|---+-------+----------------------------------+--------------+----------------+----------+-------|
+| # | total |                                  |              |                |          | 93.84 |
+#+TBLFM: @16$7=(@I$quantity..@II$quantity)*(@I$cost..@II$cost);%.2f;N

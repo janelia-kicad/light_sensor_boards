@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name footprints)(type KiCad)(uri /home/polidorop/git/kicad/kicad-libraries/footprints.pretty)(options "")(descr ""))
-  (lib (name light_sensor_boards)(type Legacy)(uri /home/polidorop/mercurial/light_sensor_boards/light_sensor_boards.mod)(options "")(descr ""))
-)

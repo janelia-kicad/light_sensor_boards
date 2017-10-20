@@ -8,10 +8,10 @@ License:
 
     BSD
 
-## Opt101 + PowerSignalCompare
+## opt101 + power_signal_compare
 
-![Opt101 + PowerSignalCompare](opt101-power_signal_compare.png)
+![opt101 + power_signal_compare](opt101-power_signal_compare.png)
 
-## Opt101 + PowerSignal
+## opt101 + power_signal
 
-![Opt101 + PowerSignal](opt101-power_signal.png)
+![opt101 + power_signal](opt101-power_signal.png)
