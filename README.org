@@ -1,0 +1,15 @@
+#+TITLE: light_sensor_boards
+#+AUTHOR: Peter Polidoro
+#+EMAIL: peterpolidoro@gmail.com
+
+* Repository Information
+  - Author :: Peter Polidoro
+  - License :: Open-Source Hardware
+
+* opt101 + power_signal_compare
+
+  [[opt101-power_signal_compare.png]]
+
+* opt101 + power_signal
+
+  [[opt101-power_signal.png]]
