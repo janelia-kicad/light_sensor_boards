@@ -8,11 +8,13 @@
 
 * opt101 + power_signal
 
-[[https://github.com/janelia-kicad/light_sensor_opt101]]
+[[https://github.com/janelia-kicad/light_sensor_opt101][light_sensor_opt101]]
 
 [[opt101-power_signal.png]]
 
 * opt101 + power_signal_compare
+
+[[https://github.com/janelia-kicad/light_sensor_opt101][light_sensor_opt101]]
 
 [[opt101-power_signal_compare.png]]
 
