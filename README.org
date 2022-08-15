@@ -3,13 +3,16 @@
 #+EMAIL: peter@polidoro.io
 
 * Repository Information
-  - Author :: Peter Polidoro
-  - License :: Open-Source Hardware
-
-* opt101 + power_signal_compare
-
-  [[opt101-power_signal_compare.png]]
+- Author :: Peter Polidoro
+- License :: Open-Source Hardware
 
 * opt101 + power_signal
 
-  [[opt101-power_signal.png]]
+[[https://github.com/janelia-kicad/light_sensor_opt101]]
+
+[[opt101-power_signal.png]]
+
+* opt101 + power_signal_compare
+
+[[opt101-power_signal_compare.png]]
+
