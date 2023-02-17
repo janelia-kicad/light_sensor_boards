@@ -3,18 +3,36 @@
 #+EMAIL: peter@polidoro.io
 
 * Repository Information
-- Author :: Peter Polidoro
-- License :: Open-Source Hardware
+- Name: light_sensor_boards
+- Description: Measures fly wingbeats using IR light reflected from flapping fly wings.
+- URL: https://github.com/janelia-kicad/light_sensor_boards
+- Author: Peter Polidoro
+- Email: peter@polidoro.io
+- License: Open-Source Hardware
+- Version: 2.0
+- Release Date: Oct 2009
+- Paper References:
+  - Kim, A., Fitzgerald, J. & Maimon, G. Cellular evidence for efference copy in
+    Drosophila visuomotor processing. Nat Neurosci 18, 1247–1255 (2015).
+    https://doi.org/10.1038/nn.4083
+  - David P. Goodman, Abby Eldredge, Catherine R. von Reyn, A novel assay to
+    evaluate action selection in escape behavior, Journal of Neuroscience
+    Methods, Volume 304, 2018, Pages 154-161, ISSN 0165-0270,
+    https://doi.org/10.1016/j.jneumeth.2018.04.019
+  - Suver et al., Active antennal movements in Drosophila can tune wind
+    encoding, Current Biology (2023), https://doi.org/10.1016/j.cub.2023.01.020
+
+These boards have been deprecated and are provided here for reference.
+
+The newest version of the wingbeat detector can be found here:
+
+[[https://github.com/janelia-kicad/wingbeat_detector]]
 
 * opt101 + power_signal
 
-[[https://github.com/janelia-kicad/light_sensor_opt101][light_sensor_opt101]]
-
-[[opt101-power_signal.png]]
+[[./images/opt101-power_signal.png]]
 
 * opt101 + power_signal_compare
 
-[[https://github.com/janelia-kicad/light_sensor_opt101][light_sensor_opt101]]
-
-[[opt101-power_signal_compare.png]]
+[[./images/opt101-power_signal_compare.png]]
 

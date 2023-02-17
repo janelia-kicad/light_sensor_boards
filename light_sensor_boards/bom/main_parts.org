@@ -1,0 +1,10 @@
+| Descripition                                                | Digi-Key Part Number |
+|-------------------------------------------------------------+----------------------|
+| CONN RCPT FMALE MINI DIN 4P SLDR                            | CP-2245-ND           |
+| CBL 4POS MALE TO MALE 4.92'                                 | AE10074-ND           |
+| CONN PWR JACK 2X5.5MM SOLDER                                | CP-063AH-ND          |
+| DC DC CONVERTER 5V +/-15V 11W                               | 811-1827-5-ND        |
+| IC FILTER 100KHZ UNIV 16SOIC                                | UAF42AU-ND           |
+| TRIMMER 10K OHM 1W PC PIN TOP                               | 3345P-103-ND         |
+| Optical Sensor Ambient 650nm Voltage 8-DIP (0.300", 7.62mm) | 296-23090-5-ND       |
+| CONN IC DIP SOCKET 8POS GOLD                                | A117-ND              |
