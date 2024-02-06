@@ -26,7 +26,7 @@ These boards have been deprecated and are provided here for reference.
 
 The newest version of the wingbeat detector can be found here:
 
-[[https://github.com/janelia-kicad/wingbeat_detector]]
+[[https://github.com/peterpolidoro/wingbeat_detector]]
 
 * opt101 + power_signal
 
