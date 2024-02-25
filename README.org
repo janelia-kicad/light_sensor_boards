@@ -7,10 +7,10 @@
 - Description: Measures fly wingbeats using IR light reflected from flapping fly wings.
 - URL: https://github.com/janelia-kicad/light_sensor_boards
 - Author: Peter Polidoro
-- Email: peter@polidoro.io
-- License: Open-Source Hardware
+- Email: polidorop@janelia.hhmi.org
+- License: Janelia Open-Source Hardware
 - Version: 2.0
-- Release Date: Oct 2009
+- Release Date: July 2015
 - Paper References:
   - Kim, A., Fitzgerald, J. & Maimon, G. Cellular evidence for efference copy in
     Drosophila visuomotor processing. Nat Neurosci 18, 1247–1255 (2015).
@@ -22,11 +22,9 @@
   - Suver et al., Active antennal movements in Drosophila can tune wind
     encoding, Current Biology (2023), https://doi.org/10.1016/j.cub.2023.01.020
 
-These boards have been deprecated and are provided here for reference.
+These boards have been deprecated and some parts are now difficult to purchase or are obsolete.
 
-The newest version of the wingbeat detector can be found here:
-
-[[https://github.com/peterpolidoro/wingbeat_detector]]
+The files in this repository are archived for reference.
 
 * opt101 + power_signal
 
