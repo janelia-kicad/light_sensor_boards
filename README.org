@@ -4,10 +4,12 @@
 
 * Repository Information
 - Name: light_sensor_boards
-- Description: Measures fly wingbeats using IR light reflected from flapping fly wings.
+- Synopsis: Measures fly wingbeats (wing tachometer) using IR light reflected from flapping fly wings.
 - URL: https://github.com/janelia-kicad/light_sensor_boards
 - Author: Peter Polidoro
-- Email: polidorop@janelia.hhmi.org
+- Email:
+  - polidorop@janelia.hhmi.org
+  - peter@polidoro.io
 - License: Janelia Open-Source Hardware
 - Version: 2.0
 - Release Date: July 2015
@@ -22,7 +24,48 @@
   - Suver et al., Active antennal movements in Drosophila can tune wind
     encoding, Current Biology (2023), https://doi.org/10.1016/j.cub.2023.01.020
 
-These boards have been deprecated and some parts are now difficult to purchase or are obsolete.
+** Description
+
+These light sensor boards, or "wing tachometer”, combine to form a small
+electro-optical device that uses reflected infrared light from the fly’s
+wingbeats to generate an oscillating voltage signal. The oscillation frequency
+of the voltage signal matches, and thus allows one to measure, the tethered
+fly's wingbeat frequency.
+
+This device is useful for plate (rather than pin) tethered flight experiments,
+because with plate-glued flies, one cannot extract the wingbeat frequency via a
+classical wingbeat analyzer. Microphones have also been used for extracting
+wingbeat frequency, but they require a quiet room. This wingbeat detector is
+immune to audible noise and only requires an infrared light source, often
+already present on flight rigs for video recording.
+
+One end of a small diameter light guide is mounted near the fly and aimed at the
+wings. The other end of the light guide is in a small enclosure containing an
+optical filter and printed circuit board and can be mounted off to the side of
+the rig wherever there is room.
+
+The light guide brings light reflected off of the wings down to a photodiode on
+a circuit board, after passing through an optical filter to remove the unwanted
+wavelengths of light. Amplifiers and filters on the circuit board convert the
+tiny amounts of current from the photodiode into an oscillating voltage signal,
+with a frequency range of several hundred Hertz and a magnitude range of several
+Volts.
+
+The oscillating voltage signal can be fed into a data acquisition card,
+oscilloscope, and/or a speaker for recording and instant feedback on fly
+wingbeat frequency. Using a threshold, the signal can be used as a simple
+boolean that indicates whether the tethered animal is flying or not for
+triggering experiments or synchronizing the data collection.
+
+This device was first created at Caltech in the Dickinson lab in collaboration
+with Gaby Maimon around 2010. It has transformed over several generations,
+getting smaller and more robust each iteration. It has been used on rigs in
+multiple universities and research institutes and has been referenced in several
+papers. Version 2 was designed in collaboration with Sung Soo Kim and the Card
+lab at Janelia Research Campus.
+
+These boards have been deprecated and some parts are now difficult to purchase
+or are obsolete.
 
 The files in this repository are archived for reference.
 
